@@ -11,7 +11,7 @@
 - PATH : C:\Program Files\PostgreSQL\11\lib;C:\Program Files\PostgreSQL\11\bin
 - PGDATA: C:\Program Files\PostgreSQL\11\data
 
-## Initialize the DB directly
+## Initialize the DB directory
 $initdb -D "C:\Program Files\PostgreSQL\11\data"
 
 ## Start Database server
