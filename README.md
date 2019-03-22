@@ -17,4 +17,21 @@ $initdb -D "C:\Program Files\PostgreSQL\11\data"
 ## Start Database server
 $ pg_ctl start
 
+## create database
+$ createdb mydb
+
+## access database
+$ psql mydb
+
+### get warning message
+>WARNING: Console code page (437) differs from Windows code page (1252)
+>...
+>...
+
+### change code page
+$ mydb=# chcp 1252
+
+
+
+
 
