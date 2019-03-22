@@ -29,7 +29,13 @@ $ psql mydb
 >...
 
 ### change code page
-$ mydb=# chcp 1252
+- Close current Console and open it again
+- execute chcp in command line
+$ chcp 1252
+Active code page 1252
+$ pg_ctl start
+$ psql mydb
+
 
 
 
